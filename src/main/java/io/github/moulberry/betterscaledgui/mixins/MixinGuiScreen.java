@@ -57,9 +57,9 @@ public class MixinGuiScreen {
         return height;
     }
 
-    //The following is not needed in vanilla, but is included in order to ensure mod compatibility
+    //The following is not needed in vanilla, but is included in order to improve mod compatibility
 
-    @Inject(method = "handleInput", at=@At("HEAD"), remap = false)
+    @Inject(method = "handleInput", at=@At("HEAD"))
     public void handleInput_HEAD(CallbackInfo ci) {
         //Don't apply tweak to main menu and such
         if(Minecraft.getMinecraft().thePlayer != null &&
@@ -68,7 +68,7 @@ public class MixinGuiScreen {
         }
     }
 
-    @Inject(method = "handleInput", at=@At("RETURN"), remap = false)
+    @Inject(method = "handleInput", at=@At("RETURN"))
     public void handleInput_RETURN(CallbackInfo ci) {
         //Disable the scale override
         ScaledResolutionOverride.setScaleOverride(-1);

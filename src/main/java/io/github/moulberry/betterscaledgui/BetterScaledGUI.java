@@ -20,7 +20,7 @@ import java.nio.charset.StandardCharsets;
 @Mod(modid = BetterScaledGUI.MODID, version = BetterScaledGUI.VERSION, clientSideOnly = true)
 public class BetterScaledGUI {
     public static final String MODID = "betterscaledgui";
-    public static final String VERSION = "1.0-REL";
+    public static final String VERSION = "1.1-REL";
 
     private static final String PREFIX = EnumChatFormatting.AQUA+"["+EnumChatFormatting.YELLOW+"BSG"+EnumChatFormatting.AQUA+"] ";
 

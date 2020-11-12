@@ -1,0 +1,10 @@
+{
+  "package": "io.github.moulberry.betterscaledgui.mixins",
+  "refmap": "mixins.betterscaledgui.refmap.json",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MixinForgeHooksClient",
+    "MixinScaledResolution",
+    "MixinGuiScreen"
+  ]
+}

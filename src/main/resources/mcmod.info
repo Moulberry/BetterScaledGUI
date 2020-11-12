@@ -1,0 +1,16 @@
+[
+{
+  "modid": "betterscaledgui",
+  "name": "BetterScaledGUI",
+  "description": "",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Moulberry"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
